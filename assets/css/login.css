@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+#page-login {
+
+width: 100%;
+height: 100vh;
+    
+
+}
+
+.container-login {
+
+display: flex;    
+
+}
+
+.left-login {
+  
+display: flex;    
+width: 50%;   
+height: 100vh;
+align-items: center;
+justify-content: center;
+
+    
+}
+
+.login-image {
+
+width: 70%;
+
+}
+
+.right-login {
+
+display: flex;  
+flex-direction: column;
+justify-content: center;  
+align-items: center;
+width: 40%;
+
+}
+
+.background-right {
+
+background-color: var(--cinza2);
+width: 75%;
+padding: 50px 25px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 0px 20px var(--cinza2);
+
+}
+
+.title-login {
+
+font-family: 'Arinoe';
+color: var(--rosa);
+font-size: 3em;
+text-shadow: 0px 0px 35px var(--rosa);
+
+}
+
+.create-account {
+
+font-family: 'IBM';  
+font-size: 1em;  
+padding: 25px 0px;
+
+}
+
+.p-createaccount {
+
+color: white;
+
+
+}
+
+.link-createaccount {
+
+color: #1b66ca;
+text-decoration: none;
+
+}
+
+.link-createaccount:hover {
+
+    color: var(--rosa);
+    text-decoration: underline;
+    
+    }
+
+
+.textfield {
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 10px;
+
+}
+
+.textfield label {
+
+padding: 5px 10px;
+color: var(--branco);
+font-family: 'IBM';
+font-weight: bold;
+font-size: 1em;
+
+}
+
+.style-input {
+
+border-radius: 20px;
+padding: 15px;
+font-size: 1.1em;
+background-color: var(--cinza);
+border: 0px;
+color: var(--branco);
+width: 250px;
+
+}
+
+.style-input:focus {
+
+outline: 1px solid var(--rosa);
+
+}
+
+.checkbox-align {
+
+display: flex;
+justify-content: center;
+
+}
+
+.checkbox-label, #checkbox-lg {
+
+    cursor: pointer;
+
+}
+
+.checkbox-label{
+
+color: var(--branco);
+font-family: 'IBM';
+font-weight: bold;
+font-size: 1em;
+
+}
+
+#checkbox-lg {
+
+margin-right: 8px;
+
+}
+
+.btn-position {
+
+display: flex;
+justify-content: center;
+margin: 25px 0px;
+
+}
+
+.btn-login {
+   
+width: 250px;
+border-radius: 20px;
+padding: 15px;
+background-color: var(--rosa);
+border: 0px;
+color: var(--branco);
+font-weight: bolder;
+font-family: 'IBM';
+font-size: 1.2em;
+box-shadow: 2px 1px 10px var(--rosa);
+
+}
+
+.btn-login {
+
+cursor: pointer;
+
+}
+
+.title-others {
+
+text-align: center;
+color: var(--branco);
+font-family: 'IBM';
+font-size: 1em;
+padding-bottom: 25px;
+
+}
+
+.container-otherslogin {
+
+display: flex;
+
+}
+
+.others-link {
+
+    background-color: var(--cinza);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    border: 1px solid var(--cinza);
+    padding: 6px;
+}
+
+.others-link:hover {
+
+border: 1px solid var(--rosa);
+
+}
+
+.others-link:hover .others-image {
+
+animation: icon360 0.25s;
+
+}
+
+.others-image {
+
+width: 45px;
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+.background-right {
+
+width: 80%;
+        
+}
+
+
+
+}
+
+@media (max-width: 1024px) {
+    
+.left-login {
+
+display: none;
+
+}
+
+.right-login {
+
+width: 100%;
+
+}
+
+.background-right {
+
+width: 100%;
+height: 100vh;
+
+}
+
+}
+
+@media (max-height: 550px) {
+    
+    #page-login {
+    
+    width: 100%;
+    height: 100%;
+                
+    }
+    
+    .left-login {
+    
+    height: 800px;
+    
+    }
+
+    .background-right{
+
+    height: 100%;
+
+    }
+    
+    }
+
