@@ -38,26 +38,23 @@
 
 </div>
 
-            <div class="textfield">
-    
-                <label for="user-lg">Usuário</label>
-                <input type="text" class="style-input user-lg" placeholder="Usuário">
-    
-            </div>
-    
-            <div class="textfield">
-                <label for="passwd-lg">Senha</label>
-                <input type="password" class="style-input passwd-login" placeholder="Senha">
-            </div>
-    
-                <div class="checkbox-align">
-                    <input type="checkbox" id="checkbox-lg">
-                    <label for="checkbox-lg" class="checkbox-label">Mostrar senha</label>
+            <form>
+                <div class="textfield">
+                    <label for="user-lg">Usuário</label>
+                    <input type="text" class="style-input user-lg" placeholder="Usuário" required>
                 </div>
-    
-            <div class="btn-position">
-                <button class="btn-login">Entrar</button>
-            </div>
+                <div class="textfield">
+                    <label for="passwd-lg">Senha</label>
+                    <input type="password" class="style-input passwd-login" placeholder="Senha" required>
+                </div>
+                    <div class="checkbox-align">
+                        <input type="checkbox" id="checkbox-lg">
+                        <label for="checkbox-lg" class="checkbox-label">Mostrar senha</label>
+                    </div>
+                <div class="btn-position">
+                    <button class="btn-login" type="submit">Entrar</button>
+                </div>
+            </form>
            
             <div class="others-login">
                 <p class="title-others">Continuar com</p>
